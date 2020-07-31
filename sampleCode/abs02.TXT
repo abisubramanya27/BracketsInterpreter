@@ -1,0 +1,35 @@
+cmt(TO SHOW HOW THE OUT STATEMENT WORKS!!);
+out("HELLO WORLD!!");
+en;
+out("HELLO",' ',"WORLD!!",' ',1,2,3,'!');
+en;
+en;
+
+cmt(TO SHOW HOW THE SINGLE VARIABLE DECLARATION AND ASSIGNING WORKS);
+num a=1 + 2  ;
+num b=3 2 + a -,c;
+out("ENTER VALUE OF c: ");
+in(c);
+out(3 2+,' ',a+b*2-c);
+en;
+en;
+
+cmt(TO SHOW HOW ARRAYS AND DECLARATION WORK);
+num d='a'+2,arr#(a+2)(1,2,3);
+alpha al=65,str#(arr#2*10+2)("empty");
+out("ENTER TWO VALUES TO FILL THE ARRAY:");
+in(arr#3,arr#4);
+out("ENTER YOUR NAME:");
+in(str#);
+out("YOUR NAME: ",str#,en);
+out("VALUE OF al: ",al,en);
+
+
+cmt(TO SHOW HOW BASIC LOOPS WORK);
+num cnt=0;
+iter(cnt<5){
+    out("VALUE",cnt+1,": ",arr#cnt,en);
+    cnt=cnt+1;
+}
+
+cmt(END OF PROGRAM);

@@ -1,0 +1,7 @@
+cmt(Program to get the biggest among three numbers without arrays )
+num a,b,c,big;
+out("Enter the input data: a,b,c");
+in(a,b,c);
+out(en,"Entered data:", "a = ",a," b = ", b," c = ",c);
+check(b>a){big=b;check(b<c){big=c;};};or(c>a){big=c;};orelse{big=a;};
+out(en, " the biggest number is :", big);

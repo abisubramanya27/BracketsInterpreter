@@ -1,0 +1,35 @@
+cmt( BUBBLE SORT );
+num a=0,b;
+out("enter number of elements");
+in(b);
+num ar#b;
+
+cmt(INPUT);
+
+iter(a<b){
+  in(ar#a);
+  a=a+1;
+}
+
+cmt(SORTING);
+
+num i=0;
+iter(i<b){
+  num j=0;
+  iter(j<b-i-1){
+   check(ar#j>ar#(j+1)){
+     num n=ar#(j+1);
+     ar#(j+1)=ar#j;
+     ar#j=n;
+   }
+   j=j+1;
+  }
+  i=i+1;
+}
+
+cmt(OUTPUT);
+i=0;
+iter(i<b){
+  out(ar#i,' ');
+  i=i+1;
+}

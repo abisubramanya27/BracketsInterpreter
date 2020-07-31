@@ -1,0 +1,12 @@
+cmt(TO CHECK THE CATEGORY OF THE CITIZEN);
+
+num age;
+alpha name#50;
+out("enter the name of person");
+in(name#);
+out(en,"enter the age");
+in(age);
+
+check(age<18) { out("child"); }
+or(age>18 & age<50) { out("adult"); }
+orelse { out("senior citizen"); }
